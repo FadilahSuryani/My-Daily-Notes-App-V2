@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0px 20px 0px 20px;
 }
 
 .App-logo {
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center; /* Menengahkan teks */
 }
 
 .App-link {
@@ -35,4 +37,155 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#judul-home {
+  text-align: center;
+  padding-top: 20px; /* Sesuaikan dengan kebutuhan */
+}
+
+#judul-home h1 {
+  margin: 0;
+}
+
+/* App.css or your style file */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: add margin for spacing */
+}
+
+.search-input {
+  display: inline-block;
+}
+
+#link-utama {
+  margin: 0px 0px 25px 20px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+#link-utama > li > a {
+  color: rgb(41, 70, 124);
+  text-decoration: none;
+}
+
+#link-utama > li > a:hover {
+  color: rgb(255, 86, 114);
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+#search-icon {
+  margin: 20px 0px 25px 20px;
+  width: 250px; /* Sesuaikan dengan lebar yang diinginkan */
+}
+
+.post-it-header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; /* Menengahkan teks */
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #282c34;
+}
+
+.post-it {
+  width: 350px;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 20px 25px 20px 0px;
+}
+
+.posisi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.post-it-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.post-it-content {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.post-it-date {
+  font-size: 13px;
+  text-align: end;
+}
+
+.delete-icon {
+  text-align: end;
+}
+
+.delete-icon:hover {
+  text-align: end;
+  color: #ec0000;
+}
+
+#div-form {
+  width: 50%;
+  height: fit-content;
+  margin-left: 20%;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #00a2ff;
+  padding: 20px; /* Tambahkan padding agar kontennya tidak berbatasan dengan tepi */
+  border-radius: 5px; /* Tambahkan border-radius untuk sudut yang melengkung */
+}
+
+.form {
+  overflow: hidden;
+}
+
+label {
+  float: left;
+  width: 120px;
+  margin-top: 15px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-note input,
+.input-note textarea {
+  float: left;
+  width: calc(100% - 200px);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.btn-note {
+  border-radius: 5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn-note:hover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  background-color: #000000;
 }
